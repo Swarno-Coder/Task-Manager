@@ -112,8 +112,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(50px);
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -128,7 +128,7 @@
             <input type="text" name="title" placeholder="Title" required>
             <input type="text" name="description" placeholder="Description">
             <input type="date" name="dueDate" required>
-            <input type="checkbox" name="completed" required>
+            <input type="checkbox" name="completed">
             <button type="submit">Add Task</button>
         </form>
         <table>
